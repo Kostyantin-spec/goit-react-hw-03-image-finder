@@ -14,12 +14,6 @@ export class ImageGalleryItem extends Component {
     }));
   };
 
-  // openModal = largeImage => {
-  //   this.setState({
-  //     currentImage: largeImage,
-  //     isModalOpen: true,
-  //   });
-  // };
 
   render() {
     const { isModalOpen } = this.state;
